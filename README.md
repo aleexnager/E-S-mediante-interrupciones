@@ -17,32 +17,8 @@ El MC68000 fue uno de los primeros microprocesadores en introducir un modo de ej
 **Modo usuario:** este modo proporciona el entorno de ejecuci´on para los programas de aplicación.  
 **Modo supervisor:** en este modo se proporcionan algunas instrucciones privilegiadas que no están disponibles en el modo usuario. El software de sistema y el sistema operativo ejecuta en este modo privilegiado.  
 
-```
-- 88110ins: Programa que permite generar o modificar un fichero de configuración. 
- 
-- paralelo: Fichero de configuración de un computador superescalar con cache de instrucciones y datos. 
- 
-- INSTALL: ShellScript que instala la aplicación. Además genera el script mc88110 que invoca al emulador 
-          con el fichero de configuración serie. Se invoca con ./INSTALL ó sh INSTALL
-```
-## Compilar y ejecutar un programa principal
-Para poder probar el códgio hay que quitar los comentarios en los datos y el programa principal (_PPALX_) que se quiera ejecutar.
-
-- Compilar:
-```
-88110e -e PPALX -ml -o CDV CDV.ens
-```
-- Ejecutar:
-```
-mc88119 CDV
-```
-Para más información, consulta el manual.
-
 ## Manual
 [Manual 88110](/doc/Manual88110.pdf)
-
-## Instalación
-[Instalación](/doc/instala.pdf)
 
 ## Enunciado del proyecto
 [Enunciado](/doc/enunciado.pdf)
