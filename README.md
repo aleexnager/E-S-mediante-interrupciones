@@ -17,6 +17,15 @@ El MC68000 fue uno de los primeros microprocesadores en introducir un modo de ej
 **Modo usuario:** este modo proporciona el entorno de ejecuci´on para los programas de aplicación.  
 **Modo supervisor:** en este modo se proporcionan algunas instrucciones privilegiadas que no están disponibles en el modo usuario. El software de sistema y el sistema operativo ejecuta en este modo privilegiado.  
 
+## Compilar y ejecutar un programa principal
+Para compilar se deben haber seguido las instrucciones del manual para instalar las dependencias.  
+
+Una vez tenemos las dependencias instaladas, podemos ejecutar el programa usando el siguiente comando en la terminal:
+```
+68kasm -l practica.s
+```
+Esto va a generar los ficheros: _, _ y por tanto son nuestros ficheros compilados.  
+
 ## Manual
 [Manual 88110](/doc/Manual88110.pdf)
 
